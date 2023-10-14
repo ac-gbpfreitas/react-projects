@@ -116,6 +116,13 @@
         left: 0px;
     }
     /* MOBILE MENU END */
+
+    .react-project-list {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+    }
 }
 
 @media (min-width: 600px) {
@@ -127,7 +134,7 @@
 @media (min-width: 1000px) {
     .left-menu {
         padding: 0;
-        position: fixed;
+        position: static;
         width: 25%;
         height: 100vh;
     }
